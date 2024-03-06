@@ -1,0 +1,6 @@
+@ConwaysGameOfLife.Server_HostAddress = http://localhost:5005
+
+GET {{ConwaysGameOfLife.Server_HostAddress}}/board/
+Accept: application/json
+
+###

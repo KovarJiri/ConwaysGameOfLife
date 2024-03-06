@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34607.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConwaysGameOfLife.DTOs", "ConwaysGameOfLife.DTOs", "{FBC5D715-5355-47F7-B0CD-3A714E08A385}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConwaysGameOfFile.UI", "ConwaysGameOfFile.UI", "{F7C78678-C3D9-45A8-8BCC-9F976F742105}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConwaysGameOfLife.Server", "ConwaysGameOfLife.Server", "{F4A827B5-AE36-48FC-83B8-6B6D99C5BA99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConwaysGameOfLife.WPF", "src\ConwaysGameOfLife.UI\ConwaysGameOfLife.WPF\ConwaysGameOfLife.WPF.csproj", "{7C55BDBA-6C3D-4B8B-B43D-3FF1239B8A78}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConwaysGameOfFile.Board.DTO", "src\ConwaysGameOfLife.DTOs\ConwaysGameOfFile.DTO\ConwaysGameOfFile.Board.DTO.csproj", "{098399C3-EB81-4C5A-B04F-5B64A79B20EE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConwaysGameOfLife.Server.REST", "src\ConwaysGameOfLife.Server\ConwaysGameOfLife.Server.REST\ConwaysGameOfLife.Server.REST.csproj", "{6EEACA43-E960-40C6-8D53-E21AF62805D0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConwaysGameOfLife.Common", "ConwaysGameOfLife.Common", "{CA217D8C-CFC8-493F-AC4A-B9F5DAAE110F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConwaysGameOfLife.Common.API", "src\ConwaysGameOfLife.Common.API\ConwaysGameOfLife.Common.API.csproj", "{2F4CD3D7-4FE8-43D5-BA14-B8CBC14B9DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConwaysGameOfLife.Server.REST.APITest", "src\ConwaysGameOfLife.REST.APITest\ConwaysGameOfLife.Server.REST.APITest.csproj", "{33A193A4-6954-4D9D-AA2F-359D5A7164C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConwaysGameOfLife.Server.REST.Test", "src\ConwaysGameOfLife.Server.REST.Test\ConwaysGameOfLife.Server.REST.Test.csproj", "{9BA4EF43-5209-4550-8889-9D729F310820}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C55BDBA-6C3D-4B8B-B43D-3FF1239B8A78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C55BDBA-6C3D-4B8B-B43D-3FF1239B8A78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C55BDBA-6C3D-4B8B-B43D-3FF1239B8A78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C55BDBA-6C3D-4B8B-B43D-3FF1239B8A78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{098399C3-EB81-4C5A-B04F-5B64A79B20EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{098399C3-EB81-4C5A-B04F-5B64A79B20EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{098399C3-EB81-4C5A-B04F-5B64A79B20EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{098399C3-EB81-4C5A-B04F-5B64A79B20EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EEACA43-E960-40C6-8D53-E21AF62805D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EEACA43-E960-40C6-8D53-E21AF62805D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EEACA43-E960-40C6-8D53-E21AF62805D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EEACA43-E960-40C6-8D53-E21AF62805D0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F4CD3D7-4FE8-43D5-BA14-B8CBC14B9DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F4CD3D7-4FE8-43D5-BA14-B8CBC14B9DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F4CD3D7-4FE8-43D5-BA14-B8CBC14B9DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F4CD3D7-4FE8-43D5-BA14-B8CBC14B9DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33A193A4-6954-4D9D-AA2F-359D5A7164C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33A193A4-6954-4D9D-AA2F-359D5A7164C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33A193A4-6954-4D9D-AA2F-359D5A7164C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33A193A4-6954-4D9D-AA2F-359D5A7164C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BA4EF43-5209-4550-8889-9D729F310820}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BA4EF43-5209-4550-8889-9D729F310820}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BA4EF43-5209-4550-8889-9D729F310820}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BA4EF43-5209-4550-8889-9D729F310820}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7C55BDBA-6C3D-4B8B-B43D-3FF1239B8A78} = {F7C78678-C3D9-45A8-8BCC-9F976F742105}
+		{098399C3-EB81-4C5A-B04F-5B64A79B20EE} = {FBC5D715-5355-47F7-B0CD-3A714E08A385}
+		{6EEACA43-E960-40C6-8D53-E21AF62805D0} = {F4A827B5-AE36-48FC-83B8-6B6D99C5BA99}
+		{2F4CD3D7-4FE8-43D5-BA14-B8CBC14B9DDE} = {CA217D8C-CFC8-493F-AC4A-B9F5DAAE110F}
+		{33A193A4-6954-4D9D-AA2F-359D5A7164C2} = {F4A827B5-AE36-48FC-83B8-6B6D99C5BA99}
+		{9BA4EF43-5209-4550-8889-9D729F310820} = {F4A827B5-AE36-48FC-83B8-6B6D99C5BA99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {972FA3A6-C6F6-4B1F-AD81-AAF786B22985}
+	EndGlobalSection
+EndGlobal
